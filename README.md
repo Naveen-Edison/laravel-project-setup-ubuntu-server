@@ -1,8 +1,6 @@
-# laravel-project-setup-ubuntu-server
-Laravel Project Setup in Ubuntu Server 
+# LARAVEL PROJECT SETUP IN UBUNTU SERVER : -
 
-# LARAVEL PROJECT SETUP IN UBUNRU SERVER : -
-   
+Laravel Project Setup in Ubuntu Server 
 
 # SSH 
     ssh -i key root@11.11.111.111
