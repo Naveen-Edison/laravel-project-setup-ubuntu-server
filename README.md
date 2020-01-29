@@ -92,26 +92,26 @@ Laravel Project Setup in Ubuntu Server
     sudo a2enmod rewrite 
     sudo service apache2 restart
 
-#SWAP MEMORY: 
+# SWAP MEMORY: 
     https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04
 
 
-#PERMISSION KEY : 
+# PERMISSION KEY : 
     sudo chgrp -R www-data storage bootstrap/cache public
     sudo chmod -R ug+rwx storage bootstrap/cache public
 
-#FTP
+# FTP
     https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-for-a-user-s-directory-on-ubuntu-16-04
 
 
-#Storage Error 
+# Storage Error 
      sudo chown www-data:www-data storage/oauth-*.key
      sudo chmod 600 storage/oauth-*.key 
      sudo chmod 777 -R  resources/lang
 
-#Curl Extension 
+# Curl Extension 
     sudo apt-get install php-curl
     sudo apt-get install php-mbstring
 
-#Digital ocean droplet creation 
+# Digital ocean droplet creation 
     https://www.digitalocean.com/community/tutorials/how-to-use-the-phpmyadmin-one-click-application-image#create-your-droplet
